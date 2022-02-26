@@ -1,0 +1,45 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#container {
+  display: flex;
+}
+
+#fruit-container {
+  width: 50%;
+}
+
+#fruit-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fruit-container img {
+  width: 50%;
+  height: auto;
+}
+#selected-item {
+  width: 40%;
+}
+
+#selected-fruit {
+  width: 40%;
+}
+
+#price, #purchase {
+  display: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
